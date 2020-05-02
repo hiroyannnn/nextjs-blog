@@ -24,6 +24,13 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "components/date.js",
+    "components/layout.js",
+    "lib/posts.js",
+    "pages/api/hello.js",
+    "pages/posts/[id].js",
+    "pages/_app.js",
+    "pages/index.js"
   ]
 }
