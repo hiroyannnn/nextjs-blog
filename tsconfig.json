@@ -31,6 +31,8 @@
     "pages/api/hello.js",
     "pages/posts/[id].js",
     "pages/_app.js",
-    "pages/index.js"
+    "pages/index.js",
+    "lib/db.js",
+    "pages/api/test.js"
   ]
 }

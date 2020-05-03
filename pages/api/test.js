@@ -10,5 +10,6 @@ module.exports = async (req, res) => {
   const count = await db.query(escape`
       select * from mydb.m_company;
     `)
-  res.status(200).json({ count })
+  const config = db.getConfig()
+  res.status(200).json({ count, config })
 }
